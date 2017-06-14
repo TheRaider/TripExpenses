@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    String TripName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         if(getSupportActionBar()!=null){
             getSupportActionBar().setTitle("Home");
+
         }
+
     }
 }
