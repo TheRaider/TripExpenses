@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if(getSupportActionBar()!=null){
-            getSupportActionBar().setTitle("Home");
-
+            getSupportActionBar().setTitle("Trip Expenses App");
         }
 
     }
