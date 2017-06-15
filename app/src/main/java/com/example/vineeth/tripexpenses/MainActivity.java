@@ -20,11 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(getSupportActionBar()!=null) {
-            getSupportActionBar().setTitle("Home");
-
-
-
+        if(getSupportActionBar()!=null){
+            getSupportActionBar().setTitle("Trip Expenses App");
         }
 
         submitButton = (Button) findViewById(R.id.submitButton);
