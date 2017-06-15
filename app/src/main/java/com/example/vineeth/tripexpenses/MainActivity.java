@@ -11,7 +11,7 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     String TripName;
 
-    Button submitButton;
+    Button submitButton,reSubmitButton;
     TextView yahoo;
 
 
@@ -25,14 +25,26 @@ public class MainActivity extends AppCompatActivity {
         }
 
         submitButton = (Button) findViewById(R.id.submitButton);
+        reSubmitButton = (Button) findViewById(R.id.resubmitButton);
         yahoo = (TextView) findViewById(R.id.yahoo);
 
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                yahoo.setText("Button is pressed");
+                yahoo.setText("submitButton Button is pressed");
             }
         });
+
+
+        reSubmitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                yahoo.setText("reSubmitButton Button is pressed");
+            }
+        });
+
+
+
 
     }
 }
