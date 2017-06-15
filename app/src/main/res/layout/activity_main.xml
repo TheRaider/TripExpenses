@@ -32,4 +32,20 @@
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Change by Vineeth"
+        tools:layout_editor_absoluteY="156dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Commit by Vineeth"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
 </android.support.constraint.ConstraintLayout>
